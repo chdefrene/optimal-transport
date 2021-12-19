@@ -48,14 +48,14 @@ def get_weather_report(location):
     return {}
 
 
-def apply_weather_delay(geo_point, weather_report):
+def calculate_weather_delay(geo_point, weather_report):
     if geo_point['hours_offset'] == 0:
         weather = weather_report["current"]
     else:
         weather = weather_report['hourly'][geo_point['hours_offset'] - 1]
 
     conditions = [i['main'] for i in weather['weather']]
-    delayed_travel_time = geo_point['travel_time']
+    delayed_travel_time = 0
 
     for condition in conditions:
         delayed_travel_time += geo_point['travel_time'] * WEATHER_CONDITION_DELAYS[condition]

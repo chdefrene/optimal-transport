@@ -25,15 +25,15 @@ def calculate_route(destination):
         "instructionsType": "coded",
         "routeRepresentation": "summaryOnly",
         # "departAt": "2021-12-31T15:06:27+01:00",
-        "vehicleCommercial": True,
+        "vehicleCommercial": 'true',
     }
 
     response = requests.get(f"https://api.tomtom.com/routing/1/calculateRoute/{locations}/json", params=payload)
 
-    if response.status_code == 200:
+    if response.status_code != 200:
+        return response.text
+    else:
         return response.json().get('routes', [{}])[0]
-
-    return {}
 
 
 def parse_route_instructions(instructions):
