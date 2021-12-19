@@ -1,0 +1,2572 @@
+[
+  {
+    "routeOffsetInMeters": 0,
+    "travelTimeInSeconds": 0,
+    "point": {
+      "latitude": 59.91912,
+      "longitude": 10.73542
+    },
+    "pointIndex": 0,
+    "instructionType": "LOCATION_DEPARTURE",
+    "street": "Edvard Storms Gate",
+    "countryCode": "NOR",
+    "possibleCombineWithNext": false,
+    "drivingSide": "RIGHT",
+    "maneuver": "DEPART"
+  },
+  {
+    "routeOffsetInMeters": 127,
+    "travelTimeInSeconds": 32,
+    "point": {
+      "latitude": 59.91922,
+      "longitude": 10.73328
+    },
+    "pointIndex": 10,
+    "instructionType": "TURN",
+    "street": "Staffeldts Gate",
+    "countryCode": "NOR",
+    "junctionType": "REGULAR",
+    "turnAngleInDecimalDegrees": -90,
+    "possibleCombineWithNext": true,
+    "drivingSide": "RIGHT",
+    "maneuver": "TURN_LEFT"
+  },
+  {
+    "routeOffsetInMeters": 239,
+    "travelTimeInSeconds": 57,
+    "point": {
+      "latitude": 59.91863,
+      "longitude": 10.73168
+    },
+    "pointIndex": 13,
+    "instructionType": "TURN",
+    "roadNumbers": [
+      "168"
+    ],
+    "street": "Wergelandsveien",
+    "countryCode": "NOR",
+    "junctionType": "REGULAR",
+    "turnAngleInDecimalDegrees": -90,
+    "possibleCombineWithNext": true,
+    "drivingSide": "RIGHT",
+    "maneuver": "TURN_LEFT"
+  },
+  {
+    "routeOffsetInMeters": 343,
+    "travelTimeInSeconds": 77,
+    "point": {
+      "latitude": 59.91771,
+      "longitude": 10.73192
+    },
+    "pointIndex": 18,
+    "instructionType": "TURN",
+    "street": "Wergelandsveien",
+    "countryCode": "NOR",
+    "junctionType": "REGULAR",
+    "turnAngleInDecimalDegrees": 0,
+    "possibleCombineWithNext": true,
+    "drivingSide": "RIGHT",
+    "maneuver": "STRAIGHT"
+  },
+  {
+    "routeOffsetInMeters": 542,
+    "travelTimeInSeconds": 137,
+    "point": {
+      "latitude": 59.91658,
+      "longitude": 10.73442
+    },
+    "pointIndex": 29,
+    "instructionType": "TURN",
+    "roadNumbers": [
+      "162",
+      "Ring1"
+    ],
+    "street": "Frederiks Gate",
+    "countryCode": "NOR",
+    "junctionType": "REGULAR",
+    "turnAngleInDecimalDegrees": 90,
+    "possibleCombineWithNext": true,
+    "drivingSide": "RIGHT",
+    "maneuver": "TURN_RIGHT"
+  },
+  {
+    "routeOffsetInMeters": 737,
+    "travelTimeInSeconds": 190,
+    "point": {
+      "latitude": 59.91514,
+      "longitude": 10.73244
+    },
+    "pointIndex": 37,
+    "instructionType": "TURN",
+    "roadNumbers": [
+      "162",
+      "Ring1"
+    ],
+    "street": "Ruseløkkveien",
+    "countryCode": "NOR",
+    "junctionType": "ROUNDABOUT",
+    "turnAngleInDecimalDegrees": 0,
+    "roundaboutExitNumber": 2,
+    "possibleCombineWithNext": true,
+    "drivingSide": "RIGHT",
+    "maneuver": "ROUNDABOUT_CROSS"
+  },
+  {
+    "routeOffsetInMeters": 877,
+    "travelTimeInSeconds": 229,
+    "point": {
+      "latitude": 59.91456,
+      "longitude": 10.73042
+    },
+    "pointIndex": 59,
+    "instructionType": "TURN",
+    "roadNumbers": [
+      "162"
+    ],
+    "street": "Haakon VIIs gate",
+    "countryCode": "NOR",
+    "junctionType": "REGULAR",
+    "turnAngleInDecimalDegrees": -90,
+    "possibleCombineWithNext": false,
+    "drivingSide": "RIGHT",
+    "maneuver": "TURN_LEFT"
+  },
+  {
+    "routeOffsetInMeters": 1310,
+    "travelTimeInSeconds": 334,
+    "point": {
+      "latitude": 59.91266,
+      "longitude": 10.72888
+    },
+    "pointIndex": 88,
+    "instructionType": "TURN",
+    "roadNumbers": [
+      "E18"
+    ],
+    "street": "Frognerstranda",
+    "countryCode": "NOR",
+    "junctionType": "REGULAR",
+    "turnAngleInDecimalDegrees": -90,
+    "possibleCombineWithNext": true,
+    "drivingSide": "RIGHT",
+    "maneuver": "TURN_LEFT"
+  },
+  {
+    "routeOffsetInMeters": 2117,
+    "travelTimeInSeconds": 390,
+    "point": {
+      "latitude": 59.91124,
+      "longitude": 10.72899
+    },
+    "pointIndex": 153,
+    "instructionType": "ROAD_CHANGE",
+    "roadNumbers": [
+      "E18"
+    ],
+    "street": "Frognerstranda",
+    "countryCode": "NOR",
+    "possibleCombineWithNext": false,
+    "drivingSide": "RIGHT",
+    "maneuver": "ENTER_MOTORWAY"
+  },
+  {
+    "routeOffsetInMeters": 4256,
+    "travelTimeInSeconds": 518,
+    "point": {
+      "latitude": 59.90258,
+      "longitude": 10.75905
+    },
+    "pointIndex": 245,
+    "instructionType": "TURN",
+    "roadNumbers": [
+      "E18"
+    ],
+    "exitNumber": "3",
+    "countryCode": "NOR",
+    "signpostText": "Sentrum",
+    "junctionType": "REGULAR",
+    "turnAngleInDecimalDegrees": 45,
+    "possibleCombineWithNext": true,
+    "drivingSide": "RIGHT",
+    "maneuver": "TAKE_EXIT"
+  },
+  {
+    "routeOffsetInMeters": 4466,
+    "travelTimeInSeconds": 532,
+    "point": {
+      "latitude": 59.90076,
+      "longitude": 10.75866
+    },
+    "pointIndex": 257,
+    "instructionType": "TURN",
+    "roadNumbers": [
+      "E18"
+    ],
+    "street": "Mosseveien",
+    "countryCode": "NOR",
+    "junctionType": "BIFURCATION",
+    "turnAngleInDecimalDegrees": -45,
+    "possibleCombineWithNext": false,
+    "drivingSide": "RIGHT",
+    "maneuver": "KEEP_LEFT"
+  },
+  {
+    "routeOffsetInMeters": 6717,
+    "travelTimeInSeconds": 757,
+    "point": {
+      "latitude": 59.88283,
+      "longitude": 10.77077
+    },
+    "pointIndex": 327,
+    "instructionType": "DIRECTION_INFO",
+    "roadNumbers": [
+      "E18"
+    ],
+    "street": "Mosseveien",
+    "countryCode": "NOR",
+    "possibleCombineWithNext": false,
+    "drivingSide": "RIGHT",
+    "maneuver": "FOLLOW"
+  },
+  {
+    "routeOffsetInMeters": 11695,
+    "travelTimeInSeconds": 1196,
+    "point": {
+      "latitude": 59.84146,
+      "longitude": 10.77722
+    },
+    "pointIndex": 505,
+    "instructionType": "TURN",
+    "roadNumbers": [
+      "E18"
+    ],
+    "street": "Mosseveien",
+    "countryCode": "NOR",
+    "signpostText": "Stockholm",
+    "junctionType": "BIFURCATION",
+    "turnAngleInDecimalDegrees": -45,
+    "possibleCombineWithNext": false,
+    "drivingSide": "RIGHT",
+    "maneuver": "KEEP_LEFT"
+  },
+  {
+    "routeOffsetInMeters": 22496,
+    "travelTimeInSeconds": 1674,
+    "point": {
+      "latitude": 59.75027,
+      "longitude": 10.78369
+    },
+    "pointIndex": 677,
+    "instructionType": "ROAD_CHANGE",
+    "roadNumbers": [
+      "E6",
+      "E18"
+    ],
+    "countryCode": "NOR",
+    "possibleCombineWithNext": false,
+    "drivingSide": "RIGHT",
+    "maneuver": "ENTER_MOTORWAY"
+  },
+  {
+    "routeOffsetInMeters": 23101,
+    "travelTimeInSeconds": 1700,
+    "point": {
+      "latitude": 59.74489,
+      "longitude": 10.78236
+    },
+    "pointIndex": 681,
+    "instructionType": "TURN",
+    "roadNumbers": [
+      "E18"
+    ],
+    "exitNumber": "21",
+    "countryCode": "NOR",
+    "signpostText": "Stockholm",
+    "junctionType": "REGULAR",
+    "turnAngleInDecimalDegrees": 45,
+    "possibleCombineWithNext": true,
+    "drivingSide": "RIGHT",
+    "maneuver": "TAKE_EXIT"
+  },
+  {
+    "routeOffsetInMeters": 23301,
+    "travelTimeInSeconds": 1710,
+    "point": {
+      "latitude": 59.74319,
+      "longitude": 10.78123
+    },
+    "pointIndex": 688,
+    "instructionType": "TURN",
+    "roadNumbers": [
+      "E18"
+    ],
+    "countryCode": "NOR",
+    "signpostText": "Stockholm",
+    "junctionType": "BIFURCATION",
+    "turnAngleInDecimalDegrees": -45,
+    "possibleCombineWithNext": false,
+    "drivingSide": "RIGHT",
+    "maneuver": "KEEP_LEFT"
+  },
+  {
+    "routeOffsetInMeters": 23701,
+    "travelTimeInSeconds": 1731,
+    "point": {
+      "latitude": 59.73988,
+      "longitude": 10.78287
+    },
+    "pointIndex": 707,
+    "instructionType": "DIRECTION_INFO",
+    "roadNumbers": [
+      "E18"
+    ],
+    "countryCode": "NOR",
+    "possibleCombineWithNext": false,
+    "drivingSide": "RIGHT",
+    "maneuver": "FOLLOW"
+  },
+  {
+    "routeOffsetInMeters": 30044,
+    "travelTimeInSeconds": 2066,
+    "point": {
+      "latitude": 59.68862,
+      "longitude": 10.81253
+    },
+    "pointIndex": 829,
+    "instructionType": "TURN",
+    "roadNumbers": [
+      "E18"
+    ],
+    "street": "Askimveien",
+    "countryCode": "NOR",
+    "junctionType": "ROUNDABOUT",
+    "turnAngleInDecimalDegrees": 0,
+    "roundaboutExitNumber": 2,
+    "possibleCombineWithNext": false,
+    "drivingSide": "RIGHT",
+    "maneuver": "ROUNDABOUT_CROSS"
+  },
+  {
+    "routeOffsetInMeters": 30367,
+    "travelTimeInSeconds": 2091,
+    "point": {
+      "latitude": 59.68805,
+      "longitude": 10.81796
+    },
+    "pointIndex": 849,
+    "instructionType": "DIRECTION_INFO",
+    "roadNumbers": [
+      "E18"
+    ],
+    "street": "Askimveien",
+    "countryCode": "NOR",
+    "signpostText": "Askim",
+    "possibleCombineWithNext": false,
+    "drivingSide": "RIGHT",
+    "maneuver": "FOLLOW"
+  },
+  {
+    "routeOffsetInMeters": 40512,
+    "travelTimeInSeconds": 2577,
+    "point": {
+      "latitude": 59.63248,
+      "longitude": 10.94811
+    },
+    "pointIndex": 1030,
+    "instructionType": "DIRECTION_INFO",
+    "roadNumbers": [
+      "E18"
+    ],
+    "countryCode": "NOR",
+    "possibleCombineWithNext": false,
+    "drivingSide": "RIGHT",
+    "maneuver": "FOLLOW"
+  },
+  {
+    "routeOffsetInMeters": 65239,
+    "travelTimeInSeconds": 3447,
+    "point": {
+      "latitude": 59.57592,
+      "longitude": 11.34084
+    },
+    "pointIndex": 1405,
+    "instructionType": "DIRECTION_INFO",
+    "roadNumbers": [
+      "E18"
+    ],
+    "countryCode": "NOR",
+    "possibleCombineWithNext": false,
+    "drivingSide": "RIGHT",
+    "maneuver": "FOLLOW"
+  },
+  {
+    "routeOffsetInMeters": 93416,
+    "travelTimeInSeconds": 4651,
+    "point": {
+      "latitude": 59.48754,
+      "longitude": 11.74950
+    },
+    "pointIndex": 1853,
+    "instructionType": "DIRECTION_INFO",
+    "roadNumbers": [
+      "E18"
+    ],
+    "countryCode": "SWE",
+    "signpostText": "Stockholm",
+    "possibleCombineWithNext": false,
+    "drivingSide": "RIGHT",
+    "maneuver": "FOLLOW"
+  },
+  {
+    "routeOffsetInMeters": 181300,
+    "travelTimeInSeconds": 8319,
+    "point": {
+      "latitude": 59.26021,
+      "longitude": 12.99989
+    },
+    "pointIndex": 2937,
+    "instructionType": "TURN",
+    "roadNumbers": [
+      "E18",
+      "E45"
+    ],
+    "countryCode": "SWE",
+    "junctionType": "BIFURCATION",
+    "turnAngleInDecimalDegrees": -45,
+    "possibleCombineWithNext": false,
+    "drivingSide": "RIGHT",
+    "maneuver": "KEEP_LEFT"
+  },
+  {
+    "routeOffsetInMeters": 181805,
+    "travelTimeInSeconds": 8337,
+    "point": {
+      "latitude": 59.26333,
+      "longitude": 13.00607
+    },
+    "pointIndex": 2949,
+    "instructionType": "DIRECTION_INFO",
+    "roadNumbers": [
+      "E45",
+      "E18"
+    ],
+    "countryCode": "SWE",
+    "possibleCombineWithNext": false,
+    "drivingSide": "RIGHT",
+    "maneuver": "FOLLOW"
+  },
+  {
+    "routeOffsetInMeters": 187634,
+    "travelTimeInSeconds": 8533,
+    "point": {
+      "latitude": 59.30051,
+      "longitude": 13.07207
+    },
+    "pointIndex": 3020,
+    "instructionType": "TURN",
+    "roadNumbers": [
+      "E18",
+      "E45"
+    ],
+    "countryCode": "SWE",
+    "junctionType": "BIFURCATION",
+    "turnAngleInDecimalDegrees": -45,
+    "possibleCombineWithNext": false,
+    "drivingSide": "RIGHT",
+    "maneuver": "KEEP_LEFT"
+  },
+  {
+    "routeOffsetInMeters": 188154,
+    "travelTimeInSeconds": 8552,
+    "point": {
+      "latitude": 59.30458,
+      "longitude": 13.07653
+    },
+    "pointIndex": 3029,
+    "instructionType": "DIRECTION_INFO",
+    "roadNumbers": [
+      "E18",
+      "E45"
+    ],
+    "countryCode": "SWE",
+    "possibleCombineWithNext": false,
+    "drivingSide": "RIGHT",
+    "maneuver": "FOLLOW"
+  },
+  {
+    "routeOffsetInMeters": 197020,
+    "travelTimeInSeconds": 8967,
+    "point": {
+      "latitude": 59.36692,
+      "longitude": 13.14544
+    },
+    "pointIndex": 3214,
+    "instructionType": "TURN",
+    "roadNumbers": [
+      "E18"
+    ],
+    "countryCode": "SWE",
+    "signpostText": "Stockholm",
+    "junctionType": "ROUNDABOUT",
+    "turnAngleInDecimalDegrees": 0,
+    "roundaboutExitNumber": 2,
+    "possibleCombineWithNext": false,
+    "drivingSide": "RIGHT",
+    "maneuver": "ROUNDABOUT_CROSS"
+  },
+  {
+    "routeOffsetInMeters": 197374,
+    "travelTimeInSeconds": 8988,
+    "point": {
+      "latitude": 59.36817,
+      "longitude": 13.15078
+    },
+    "pointIndex": 3229,
+    "instructionType": "DIRECTION_INFO",
+    "roadNumbers": [
+      "E18"
+    ],
+    "countryCode": "SWE",
+    "signpostText": "Karlstad",
+    "possibleCombineWithNext": false,
+    "drivingSide": "RIGHT",
+    "maneuver": "FOLLOW"
+  },
+  {
+    "routeOffsetInMeters": 212662,
+    "travelTimeInSeconds": 9541,
+    "point": {
+      "latitude": 59.38117,
+      "longitude": 13.40487
+    },
+    "pointIndex": 3420,
+    "instructionType": "TURN",
+    "roadNumbers": [
+      "E18"
+    ],
+    "countryCode": "SWE",
+    "junctionType": "BIFURCATION",
+    "turnAngleInDecimalDegrees": -45,
+    "possibleCombineWithNext": true,
+    "drivingSide": "RIGHT",
+    "maneuver": "KEEP_LEFT"
+  },
+  {
+    "routeOffsetInMeters": 213532,
+    "travelTimeInSeconds": 9579,
+    "point": {
+      "latitude": 59.38079,
+      "longitude": 13.41995
+    },
+    "pointIndex": 3436,
+    "instructionType": "TURN",
+    "roadNumbers": [
+      "E18"
+    ],
+    "countryCode": "SWE",
+    "signpostText": "Centrum",
+    "junctionType": "BIFURCATION",
+    "turnAngleInDecimalDegrees": -45,
+    "possibleCombineWithNext": false,
+    "drivingSide": "RIGHT",
+    "maneuver": "KEEP_LEFT"
+  },
+  {
+    "routeOffsetInMeters": 214007,
+    "travelTimeInSeconds": 9599,
+    "point": {
+      "latitude": 59.37927,
+      "longitude": 13.42776
+    },
+    "pointIndex": 3443,
+    "instructionType": "DIRECTION_INFO",
+    "roadNumbers": [
+      "E18"
+    ],
+    "countryCode": "SWE",
+    "signpostText": "Centrum",
+    "possibleCombineWithNext": false,
+    "drivingSide": "RIGHT",
+    "maneuver": "FOLLOW"
+  },
+  {
+    "routeOffsetInMeters": 281942,
+    "travelTimeInSeconds": 12208,
+    "point": {
+      "latitude": 59.32389,
+      "longitude": 14.50588
+    },
+    "pointIndex": 4348,
+    "instructionType": "TURN",
+    "roadNumbers": [
+      "E18",
+      "243"
+    ],
+    "street": "Örebrovägen",
+    "countryCode": "SWE",
+    "signpostText": "Stockholm",
+    "junctionType": "ROUNDABOUT",
+    "turnAngleInDecimalDegrees": 45,
+    "roundaboutExitNumber": 2,
+    "possibleCombineWithNext": false,
+    "drivingSide": "RIGHT",
+    "maneuver": "ROUNDABOUT_CROSS"
+  },
+  {
+    "routeOffsetInMeters": 282062,
+    "travelTimeInSeconds": 12217,
+    "point": {
+      "latitude": 59.32376,
+      "longitude": 14.50770
+    },
+    "pointIndex": 4361,
+    "instructionType": "TURN",
+    "roadNumbers": [
+      "E18",
+      "243"
+    ],
+    "street": "Örebrovägen",
+    "countryCode": "SWE",
+    "junctionType": "ROUNDABOUT",
+    "turnAngleInDecimalDegrees": 45,
+    "roundaboutExitNumber": 0,
+    "possibleCombineWithNext": false,
+    "drivingSide": "RIGHT",
+    "maneuver": "TAKE_EXIT"
+  },
+  {
+    "routeOffsetInMeters": 283182,
+    "travelTimeInSeconds": 12282,
+    "point": {
+      "latitude": 59.32464,
+      "longitude": 14.52720
+    },
+    "pointIndex": 4382,
+    "instructionType": "TURN",
+    "roadNumbers": [
+      "E18",
+      "243"
+    ],
+    "street": "Örebrovägen",
+    "countryCode": "SWE",
+    "signpostText": "Stockholm",
+    "junctionType": "ROUNDABOUT",
+    "turnAngleInDecimalDegrees": 0,
+    "roundaboutExitNumber": 1,
+    "possibleCombineWithNext": false,
+    "drivingSide": "RIGHT",
+    "maneuver": "ROUNDABOUT_CROSS"
+  },
+  {
+    "routeOffsetInMeters": 283994,
+    "travelTimeInSeconds": 12330,
+    "point": {
+      "latitude": 59.32739,
+      "longitude": 14.53943
+    },
+    "pointIndex": 4415,
+    "instructionType": "TURN",
+    "roadNumbers": [
+      "E18",
+      "243"
+    ],
+    "street": "Örebrovägen",
+    "countryCode": "SWE",
+    "junctionType": "BIFURCATION",
+    "turnAngleInDecimalDegrees": -45,
+    "possibleCombineWithNext": false,
+    "drivingSide": "RIGHT",
+    "maneuver": "KEEP_LEFT"
+  },
+  {
+    "routeOffsetInMeters": 284379,
+    "travelTimeInSeconds": 12358,
+    "point": {
+      "latitude": 59.33027,
+      "longitude": 14.54299
+    },
+    "pointIndex": 4426,
+    "instructionType": "DIRECTION_INFO",
+    "roadNumbers": [
+      "E18",
+      "243"
+    ],
+    "street": "Örebrovägen",
+    "countryCode": "SWE",
+    "possibleCombineWithNext": false,
+    "drivingSide": "RIGHT",
+    "maneuver": "FOLLOW"
+  },
+  {
+    "routeOffsetInMeters": 303650,
+    "travelTimeInSeconds": 13152,
+    "point": {
+      "latitude": 59.25292,
+      "longitude": 14.82321
+    },
+    "pointIndex": 4707,
+    "instructionType": "TURN",
+    "roadNumbers": [
+      "E18"
+    ],
+    "countryCode": "SWE",
+    "signpostText": "Stockholm",
+    "junctionType": "BIFURCATION",
+    "turnAngleInDecimalDegrees": -45,
+    "possibleCombineWithNext": false,
+    "drivingSide": "RIGHT",
+    "maneuver": "KEEP_LEFT"
+  },
+  {
+    "routeOffsetInMeters": 304170,
+    "travelTimeInSeconds": 13170,
+    "point": {
+      "latitude": 59.25186,
+      "longitude": 14.83208
+    },
+    "pointIndex": 4717,
+    "instructionType": "DIRECTION_INFO",
+    "roadNumbers": [
+      "E18"
+    ],
+    "countryCode": "SWE",
+    "possibleCombineWithNext": false,
+    "drivingSide": "RIGHT",
+    "maneuver": "FOLLOW"
+  },
+  {
+    "routeOffsetInMeters": 320840,
+    "travelTimeInSeconds": 13706,
+    "point": {
+      "latitude": 59.23944,
+      "longitude": 15.11553
+    },
+    "pointIndex": 4913,
+    "instructionType": "TURN",
+    "roadNumbers": [
+      "E18"
+    ],
+    "countryCode": "SWE",
+    "signpostText": "Centrum",
+    "junctionType": "BIFURCATION",
+    "turnAngleInDecimalDegrees": -45,
+    "possibleCombineWithNext": false,
+    "drivingSide": "RIGHT",
+    "maneuver": "KEEP_LEFT"
+  },
+  {
+    "routeOffsetInMeters": 321752,
+    "travelTimeInSeconds": 13742,
+    "point": {
+      "latitude": 59.23946,
+      "longitude": 15.13150
+    },
+    "pointIndex": 4930,
+    "instructionType": "TURN",
+    "roadNumbers": [
+      "E18"
+    ],
+    "countryCode": "SWE",
+    "signpostText": "Stockholm",
+    "junctionType": "BIFURCATION",
+    "turnAngleInDecimalDegrees": -45,
+    "possibleCombineWithNext": true,
+    "drivingSide": "RIGHT",
+    "maneuver": "KEEP_LEFT"
+  },
+  {
+    "routeOffsetInMeters": 321752,
+    "travelTimeInSeconds": 13742,
+    "point": {
+      "latitude": 59.23946,
+      "longitude": 15.13150
+    },
+    "pointIndex": 4930,
+    "instructionType": "ROAD_CHANGE",
+    "roadNumbers": [
+      "E18"
+    ],
+    "countryCode": "SWE",
+    "possibleCombineWithNext": false,
+    "drivingSide": "RIGHT",
+    "maneuver": "ENTER_MOTORWAY"
+  },
+  {
+    "routeOffsetInMeters": 322242,
+    "travelTimeInSeconds": 13761,
+    "point": {
+      "latitude": 59.24102,
+      "longitude": 15.13945
+    },
+    "pointIndex": 4939,
+    "instructionType": "DIRECTION_INFO",
+    "roadNumbers": [
+      "E18"
+    ],
+    "countryCode": "SWE",
+    "possibleCombineWithNext": false,
+    "drivingSide": "RIGHT",
+    "maneuver": "FOLLOW"
+  },
+  {
+    "routeOffsetInMeters": 403532,
+    "travelTimeInSeconds": 16437,
+    "point": {
+      "latitude": 59.59269,
+      "longitude": 16.24711
+    },
+    "pointIndex": 5806,
+    "instructionType": "TURN",
+    "roadNumbers": [
+      "E18"
+    ],
+    "countryCode": "SWE",
+    "junctionType": "BIFURCATION",
+    "turnAngleInDecimalDegrees": -45,
+    "possibleCombineWithNext": false,
+    "drivingSide": "RIGHT",
+    "maneuver": "KEEP_LEFT"
+  },
+  {
+    "routeOffsetInMeters": 404037,
+    "travelTimeInSeconds": 16457,
+    "point": {
+      "latitude": 59.59132,
+      "longitude": 16.25556
+    },
+    "pointIndex": 5818,
+    "instructionType": "DIRECTION_INFO",
+    "roadNumbers": [
+      "E18"
+    ],
+    "countryCode": "SWE",
+    "possibleCombineWithNext": false,
+    "drivingSide": "RIGHT",
+    "maneuver": "FOLLOW"
+  },
+  {
+    "routeOffsetInMeters": 421915,
+    "travelTimeInSeconds": 17103,
+    "point": {
+      "latitude": 59.62464,
+      "longitude": 16.54294
+    },
+    "pointIndex": 6044,
+    "instructionType": "TURN",
+    "roadNumbers": [
+      "56"
+    ],
+    "exitNumber": "133",
+    "street": "Skallbergsmotet",
+    "countryCode": "SWE",
+    "signpostText": "Gävle",
+    "junctionType": "REGULAR",
+    "turnAngleInDecimalDegrees": 45,
+    "possibleCombineWithNext": true,
+    "drivingSide": "RIGHT",
+    "maneuver": "TAKE_EXIT"
+  },
+  {
+    "routeOffsetInMeters": 422202,
+    "travelTimeInSeconds": 17128,
+    "point": {
+      "latitude": 59.62392,
+      "longitude": 16.54773
+    },
+    "pointIndex": 6056,
+    "instructionType": "TURN",
+    "roadNumbers": [
+      "56"
+    ],
+    "street": "Bergslagsvägen",
+    "countryCode": "SWE",
+    "signpostText": "Gävle",
+    "junctionType": "ROUNDABOUT",
+    "turnAngleInDecimalDegrees": -90,
+    "roundaboutExitNumber": 3,
+    "possibleCombineWithNext": false,
+    "drivingSide": "RIGHT",
+    "maneuver": "ROUNDABOUT_LEFT"
+  },
+  {
+    "routeOffsetInMeters": 422319,
+    "travelTimeInSeconds": 17140,
+    "point": {
+      "latitude": 59.62431,
+      "longitude": 16.54884
+    },
+    "pointIndex": 6073,
+    "instructionType": "TURN",
+    "roadNumbers": [
+      "56"
+    ],
+    "street": "Bergslagsvägen",
+    "countryCode": "SWE",
+    "junctionType": "ROUNDABOUT",
+    "turnAngleInDecimalDegrees": 45,
+    "roundaboutExitNumber": 0,
+    "possibleCombineWithNext": false,
+    "drivingSide": "RIGHT",
+    "maneuver": "TAKE_EXIT"
+  },
+  {
+    "routeOffsetInMeters": 423200,
+    "travelTimeInSeconds": 17205,
+    "point": {
+      "latitude": 59.63137,
+      "longitude": 16.55578
+    },
+    "pointIndex": 6091,
+    "instructionType": "TURN",
+    "roadNumbers": [
+      "56"
+    ],
+    "street": "Bergslagsvägen",
+    "countryCode": "SWE",
+    "junctionType": "ROUNDABOUT",
+    "turnAngleInDecimalDegrees": 0,
+    "roundaboutExitNumber": 2,
+    "possibleCombineWithNext": false,
+    "drivingSide": "RIGHT",
+    "maneuver": "ROUNDABOUT_CROSS"
+  },
+  {
+    "routeOffsetInMeters": 423795,
+    "travelTimeInSeconds": 17250,
+    "point": {
+      "latitude": 59.63543,
+      "longitude": 16.56220
+    },
+    "pointIndex": 6114,
+    "instructionType": "TURN",
+    "roadNumbers": [
+      "56"
+    ],
+    "street": "Bergslagsvägen",
+    "countryCode": "SWE",
+    "junctionType": "ROUNDABOUT",
+    "turnAngleInDecimalDegrees": 0,
+    "roundaboutExitNumber": 2,
+    "possibleCombineWithNext": false,
+    "drivingSide": "RIGHT",
+    "maneuver": "ROUNDABOUT_CROSS"
+  },
+  {
+    "routeOffsetInMeters": 424987,
+    "travelTimeInSeconds": 17324,
+    "point": {
+      "latitude": 59.64483,
+      "longitude": 16.57170
+    },
+    "pointIndex": 6147,
+    "instructionType": "TURN",
+    "roadNumbers": [
+      "56"
+    ],
+    "street": "Bergslagsvägen",
+    "countryCode": "SWE",
+    "junctionType": "ROUNDABOUT",
+    "turnAngleInDecimalDegrees": 0,
+    "roundaboutExitNumber": 2,
+    "possibleCombineWithNext": false,
+    "drivingSide": "RIGHT",
+    "maneuver": "ROUNDABOUT_CROSS"
+  },
+  {
+    "routeOffsetInMeters": 426234,
+    "travelTimeInSeconds": 17397,
+    "point": {
+      "latitude": 59.65543,
+      "longitude": 16.57747
+    },
+    "pointIndex": 6176,
+    "instructionType": "TURN",
+    "roadNumbers": [
+      "56"
+    ],
+    "street": "Bergslagsvägen",
+    "countryCode": "SWE",
+    "junctionType": "ROUNDABOUT",
+    "turnAngleInDecimalDegrees": 0,
+    "roundaboutExitNumber": 2,
+    "possibleCombineWithNext": false,
+    "drivingSide": "RIGHT",
+    "maneuver": "ROUNDABOUT_CROSS"
+  },
+  {
+    "routeOffsetInMeters": 426549,
+    "travelTimeInSeconds": 17416,
+    "point": {
+      "latitude": 59.65811,
+      "longitude": 16.57832
+    },
+    "pointIndex": 6193,
+    "instructionType": "DIRECTION_INFO",
+    "roadNumbers": [
+      "56"
+    ],
+    "street": "Bergslagsvägen",
+    "countryCode": "SWE",
+    "possibleCombineWithNext": false,
+    "drivingSide": "RIGHT",
+    "maneuver": "FOLLOW"
+  },
+  {
+    "routeOffsetInMeters": 453675,
+    "travelTimeInSeconds": 18438,
+    "point": {
+      "latitude": 59.88831,
+      "longitude": 16.56135
+    },
+    "pointIndex": 6485,
+    "instructionType": "TURN",
+    "roadNumbers": [
+      "56",
+      "70"
+    ],
+    "countryCode": "SWE",
+    "junctionType": "ROUNDABOUT",
+    "turnAngleInDecimalDegrees": 90,
+    "roundaboutExitNumber": 1,
+    "possibleCombineWithNext": false,
+    "drivingSide": "RIGHT",
+    "maneuver": "ROUNDABOUT_RIGHT"
+  },
+  {
+    "routeOffsetInMeters": 457195,
+    "travelTimeInSeconds": 18580,
+    "point": {
+      "latitude": 59.88766,
+      "longitude": 16.62276
+    },
+    "pointIndex": 6557,
+    "instructionType": "TURN",
+    "roadNumbers": [
+      "56"
+    ],
+    "street": "Stockholmsvägen",
+    "countryCode": "SWE",
+    "junctionType": "ROUNDABOUT",
+    "turnAngleInDecimalDegrees": 0,
+    "roundaboutExitNumber": 2,
+    "possibleCombineWithNext": false,
+    "drivingSide": "RIGHT",
+    "maneuver": "ROUNDABOUT_CROSS"
+  },
+  {
+    "routeOffsetInMeters": 459762,
+    "travelTimeInSeconds": 18698,
+    "point": {
+      "latitude": 59.91026,
+      "longitude": 16.61946
+    },
+    "pointIndex": 6588,
+    "instructionType": "TURN",
+    "roadNumbers": [
+      "56"
+    ],
+    "street": "Stockholmsvägen",
+    "countryCode": "SWE",
+    "junctionType": "ROUNDABOUT",
+    "turnAngleInDecimalDegrees": 0,
+    "roundaboutExitNumber": 1,
+    "possibleCombineWithNext": false,
+    "drivingSide": "RIGHT",
+    "maneuver": "ROUNDABOUT_CROSS"
+  },
+  {
+    "routeOffsetInMeters": 460415,
+    "travelTimeInSeconds": 18746,
+    "point": {
+      "latitude": 59.91583,
+      "longitude": 16.61646
+    },
+    "pointIndex": 6609,
+    "instructionType": "TURN",
+    "roadNumbers": [
+      "72",
+      "56"
+    ],
+    "street": "Uppsalavägen",
+    "countryCode": "SWE",
+    "junctionType": "ROUNDABOUT",
+    "turnAngleInDecimalDegrees": 90,
+    "roundaboutExitNumber": 1,
+    "possibleCombineWithNext": false,
+    "drivingSide": "RIGHT",
+    "maneuver": "ROUNDABOUT_RIGHT"
+  },
+  {
+    "routeOffsetInMeters": 460658,
+    "travelTimeInSeconds": 18765,
+    "point": {
+      "latitude": 59.91605,
+      "longitude": 16.62069
+    },
+    "pointIndex": 6617,
+    "instructionType": "DIRECTION_INFO",
+    "roadNumbers": [
+      "72",
+      "56"
+    ],
+    "street": "Uppsalavägen",
+    "countryCode": "SWE",
+    "possibleCombineWithNext": false,
+    "drivingSide": "RIGHT",
+    "maneuver": "FOLLOW"
+  },
+  {
+    "routeOffsetInMeters": 472978,
+    "travelTimeInSeconds": 19301,
+    "point": {
+      "latitude": 59.93716,
+      "longitude": 16.82840
+    },
+    "pointIndex": 6761,
+    "instructionType": "TURN",
+    "roadNumbers": [
+      "56"
+    ],
+    "countryCode": "SWE",
+    "junctionType": "ROUNDABOUT",
+    "turnAngleInDecimalDegrees": -90,
+    "roundaboutExitNumber": 2,
+    "possibleCombineWithNext": false,
+    "drivingSide": "RIGHT",
+    "maneuver": "ROUNDABOUT_LEFT"
+  },
+  {
+    "routeOffsetInMeters": 473286,
+    "travelTimeInSeconds": 19331,
+    "point": {
+      "latitude": 59.93943,
+      "longitude": 16.82914
+    },
+    "pointIndex": 6785,
+    "instructionType": "DIRECTION_INFO",
+    "roadNumbers": [
+      "56"
+    ],
+    "countryCode": "SWE",
+    "possibleCombineWithNext": false,
+    "drivingSide": "RIGHT",
+    "maneuver": "FOLLOW"
+  },
+  {
+    "routeOffsetInMeters": 553955,
+    "travelTimeInSeconds": 22550,
+    "point": {
+      "latitude": 60.61587,
+      "longitude": 16.97549
+    },
+    "pointIndex": 7753,
+    "instructionType": "TURN",
+    "roadNumbers": [
+      "56"
+    ],
+    "street": "Valbovägen",
+    "countryCode": "SWE",
+    "junctionType": "REGULAR",
+    "turnAngleInDecimalDegrees": 90,
+    "possibleCombineWithNext": false,
+    "drivingSide": "RIGHT",
+    "maneuver": "TURN_RIGHT"
+  },
+  {
+    "routeOffsetInMeters": 555601,
+    "travelTimeInSeconds": 22663,
+    "point": {
+      "latitude": 60.62915,
+      "longitude": 16.98769
+    },
+    "pointIndex": 7794,
+    "instructionType": "TURN",
+    "roadNumbers": [
+      "56"
+    ],
+    "countryCode": "SWE",
+    "signpostText": "Gävle",
+    "junctionType": "ROUNDABOUT",
+    "turnAngleInDecimalDegrees": 0,
+    "roundaboutExitNumber": 2,
+    "possibleCombineWithNext": true,
+    "drivingSide": "RIGHT",
+    "maneuver": "ROUNDABOUT_CROSS"
+  },
+  {
+    "routeOffsetInMeters": 556159,
+    "travelTimeInSeconds": 22696,
+    "point": {
+      "latitude": 60.63190,
+      "longitude": 16.99562
+    },
+    "pointIndex": 7819,
+    "instructionType": "ROAD_CHANGE",
+    "roadNumbers": [
+      "E16",
+      "68",
+      "56"
+    ],
+    "countryCode": "SWE",
+    "possibleCombineWithNext": false,
+    "drivingSide": "RIGHT",
+    "maneuver": "ENTER_MOTORWAY"
+  },
+  {
+    "routeOffsetInMeters": 556259,
+    "travelTimeInSeconds": 22699,
+    "point": {
+      "latitude": 60.63231,
+      "longitude": 16.99725
+    },
+    "pointIndex": 7820,
+    "instructionType": "DIRECTION_INFO",
+    "roadNumbers": [
+      "E16",
+      "68",
+      "56"
+    ],
+    "countryCode": "SWE",
+    "possibleCombineWithNext": false,
+    "drivingSide": "RIGHT",
+    "maneuver": "FOLLOW"
+  },
+  {
+    "routeOffsetInMeters": 562780,
+    "travelTimeInSeconds": 22922,
+    "point": {
+      "latitude": 60.66907,
+      "longitude": 17.08619
+    },
+    "pointIndex": 7902,
+    "instructionType": "TURN",
+    "roadNumbers": [
+      "E4"
+    ],
+    "countryCode": "SWE",
+    "signpostText": "Sundsvall",
+    "junctionType": "REGULAR",
+    "turnAngleInDecimalDegrees": 45,
+    "possibleCombineWithNext": true,
+    "drivingSide": "RIGHT",
+    "maneuver": "TAKE_EXIT"
+  },
+  {
+    "routeOffsetInMeters": 563021,
+    "travelTimeInSeconds": 22932,
+    "point": {
+      "latitude": 60.66970,
+      "longitude": 17.09039
+    },
+    "pointIndex": 7908,
+    "instructionType": "TURN",
+    "roadNumbers": [
+      "E4"
+    ],
+    "countryCode": "SWE",
+    "signpostText": "Sundsvall",
+    "junctionType": "BIFURCATION",
+    "turnAngleInDecimalDegrees": -45,
+    "possibleCombineWithNext": true,
+    "drivingSide": "RIGHT",
+    "maneuver": "KEEP_LEFT"
+  },
+  {
+    "routeOffsetInMeters": 563404,
+    "travelTimeInSeconds": 22952,
+    "point": {
+      "latitude": 60.67116,
+      "longitude": 17.09659
+    },
+    "pointIndex": 7923,
+    "instructionType": "TURN",
+    "roadNumbers": [
+      "E4"
+    ],
+    "countryCode": "SWE",
+    "signpostText": "Sundsvall",
+    "junctionType": "BIFURCATION",
+    "turnAngleInDecimalDegrees": 45,
+    "possibleCombineWithNext": true,
+    "drivingSide": "RIGHT",
+    "maneuver": "KEEP_RIGHT"
+  },
+  {
+    "routeOffsetInMeters": 563778,
+    "travelTimeInSeconds": 22975,
+    "point": {
+      "latitude": 60.67123,
+      "longitude": 17.09389
+    },
+    "pointIndex": 7955,
+    "instructionType": "ROAD_CHANGE",
+    "roadNumbers": [
+      "E4"
+    ],
+    "countryCode": "SWE",
+    "possibleCombineWithNext": false,
+    "drivingSide": "RIGHT",
+    "maneuver": "ENTER_MOTORWAY"
+  },
+  {
+    "routeOffsetInMeters": 563878,
+    "travelTimeInSeconds": 22979,
+    "point": {
+      "latitude": 60.67197,
+      "longitude": 17.09284
+    },
+    "pointIndex": 7957,
+    "instructionType": "DIRECTION_INFO",
+    "roadNumbers": [
+      "E4"
+    ],
+    "countryCode": "SWE",
+    "possibleCombineWithNext": false,
+    "drivingSide": "RIGHT",
+    "maneuver": "FOLLOW"
+  },
+  {
+    "routeOffsetInMeters": 754460,
+    "travelTimeInSeconds": 29527,
+    "point": {
+      "latitude": 62.26517,
+      "longitude": 17.35385
+    },
+    "pointIndex": 10133,
+    "instructionType": "TURN",
+    "roadNumbers": [
+      "E4"
+    ],
+    "countryCode": "SWE",
+    "junctionType": "BIFURCATION",
+    "turnAngleInDecimalDegrees": -45,
+    "possibleCombineWithNext": false,
+    "drivingSide": "RIGHT",
+    "maneuver": "KEEP_LEFT"
+  },
+  {
+    "routeOffsetInMeters": 754995,
+    "travelTimeInSeconds": 29546,
+    "point": {
+      "latitude": 62.26878,
+      "longitude": 17.34712
+    },
+    "pointIndex": 10144,
+    "instructionType": "DIRECTION_INFO",
+    "roadNumbers": [
+      "E4"
+    ],
+    "countryCode": "SWE",
+    "signpostText": "Sundsvall",
+    "possibleCombineWithNext": false,
+    "drivingSide": "RIGHT",
+    "maneuver": "FOLLOW"
+  },
+  {
+    "routeOffsetInMeters": 840404,
+    "travelTimeInSeconds": 32805,
+    "point": {
+      "latitude": 62.78013,
+      "longitude": 17.91907
+    },
+    "pointIndex": 11470,
+    "instructionType": "TURN",
+    "roadNumbers": [
+      "E4"
+    ],
+    "countryCode": "SWE",
+    "junctionType": "BIFURCATION",
+    "turnAngleInDecimalDegrees": -45,
+    "possibleCombineWithNext": false,
+    "drivingSide": "RIGHT",
+    "maneuver": "KEEP_LEFT"
+  },
+  {
+    "routeOffsetInMeters": 840894,
+    "travelTimeInSeconds": 32824,
+    "point": {
+      "latitude": 62.78451,
+      "longitude": 17.91911
+    },
+    "pointIndex": 11478,
+    "instructionType": "DIRECTION_INFO",
+    "roadNumbers": [
+      "E4"
+    ],
+    "countryCode": "SWE",
+    "possibleCombineWithNext": false,
+    "drivingSide": "RIGHT",
+    "maneuver": "FOLLOW"
+  },
+  {
+    "routeOffsetInMeters": 848877,
+    "travelTimeInSeconds": 33109,
+    "point": {
+      "latitude": 62.84311,
+      "longitude": 17.98925
+    },
+    "pointIndex": 11601,
+    "instructionType": "TURN",
+    "roadNumbers": [
+      "E4"
+    ],
+    "countryCode": "SWE",
+    "junctionType": "BIFURCATION",
+    "turnAngleInDecimalDegrees": -45,
+    "possibleCombineWithNext": false,
+    "drivingSide": "RIGHT",
+    "maneuver": "KEEP_LEFT"
+  },
+  {
+    "routeOffsetInMeters": 849412,
+    "travelTimeInSeconds": 33127,
+    "point": {
+      "latitude": 62.84608,
+      "longitude": 17.99743
+    },
+    "pointIndex": 11613,
+    "instructionType": "DIRECTION_INFO",
+    "roadNumbers": [
+      "E4"
+    ],
+    "countryCode": "SWE",
+    "possibleCombineWithNext": false,
+    "drivingSide": "RIGHT",
+    "maneuver": "FOLLOW"
+  },
+  {
+    "routeOffsetInMeters": 921774,
+    "travelTimeInSeconds": 35865,
+    "point": {
+      "latitude": 63.29052,
+      "longitude": 18.70609
+    },
+    "pointIndex": 12704,
+    "instructionType": "TURN",
+    "roadNumbers": [
+      "E4"
+    ],
+    "street": "Centralesplanaden",
+    "countryCode": "SWE",
+    "signpostText": "Haparanda",
+    "junctionType": "ROUNDABOUT",
+    "turnAngleInDecimalDegrees": -90,
+    "roundaboutExitNumber": 3,
+    "possibleCombineWithNext": false,
+    "drivingSide": "RIGHT",
+    "maneuver": "ROUNDABOUT_LEFT"
+  },
+  {
+    "routeOffsetInMeters": 924414,
+    "travelTimeInSeconds": 36067,
+    "point": {
+      "latitude": 63.30374,
+      "longitude": 18.73414
+    },
+    "pointIndex": 12809,
+    "instructionType": "TURN",
+    "roadNumbers": [
+      "E4"
+    ],
+    "countryCode": "SWE",
+    "signpostText": "Haparanda",
+    "junctionType": "ROUNDABOUT",
+    "turnAngleInDecimalDegrees": 0,
+    "roundaboutExitNumber": 3,
+    "possibleCombineWithNext": false,
+    "drivingSide": "RIGHT",
+    "maneuver": "ROUNDABOUT_CROSS"
+  },
+  {
+    "routeOffsetInMeters": 924746,
+    "travelTimeInSeconds": 36088,
+    "point": {
+      "latitude": 63.30382,
+      "longitude": 18.74028
+    },
+    "pointIndex": 12828,
+    "instructionType": "DIRECTION_INFO",
+    "roadNumbers": [
+      "E4"
+    ],
+    "countryCode": "SWE",
+    "possibleCombineWithNext": false,
+    "drivingSide": "RIGHT",
+    "maneuver": "FOLLOW"
+  },
+  {
+    "routeOffsetInMeters": 979160,
+    "travelTimeInSeconds": 37997,
+    "point": {
+      "latitude": 63.57660,
+      "longitude": 19.45530
+    },
+    "pointIndex": 13530,
+    "instructionType": "TURN",
+    "roadNumbers": [
+      "E4"
+    ],
+    "countryCode": "SWE",
+    "junctionType": "BIFURCATION",
+    "turnAngleInDecimalDegrees": -45,
+    "possibleCombineWithNext": false,
+    "drivingSide": "RIGHT",
+    "maneuver": "KEEP_LEFT"
+  },
+  {
+    "routeOffsetInMeters": 979695,
+    "travelTimeInSeconds": 38016,
+    "point": {
+      "latitude": 63.57805,
+      "longitude": 19.46550
+    },
+    "pointIndex": 13538,
+    "instructionType": "DIRECTION_INFO",
+    "roadNumbers": [
+      "E4"
+    ],
+    "countryCode": "SWE",
+    "possibleCombineWithNext": false,
+    "drivingSide": "RIGHT",
+    "maneuver": "FOLLOW"
+  },
+  {
+    "routeOffsetInMeters": 1028818,
+    "travelTimeInSeconds": 39765,
+    "point": {
+      "latitude": 63.80320,
+      "longitude": 20.25386
+    },
+    "pointIndex": 14100,
+    "instructionType": "TURN",
+    "roadNumbers": [
+      "E4"
+    ],
+    "countryCode": "SWE",
+    "junctionType": "ROUNDABOUT",
+    "turnAngleInDecimalDegrees": 90,
+    "roundaboutExitNumber": 1,
+    "possibleCombineWithNext": false,
+    "drivingSide": "RIGHT",
+    "maneuver": "ROUNDABOUT_RIGHT"
+  },
+  {
+    "routeOffsetInMeters": 1030388,
+    "travelTimeInSeconds": 39850,
+    "point": {
+      "latitude": 63.79890,
+      "longitude": 20.28318
+    },
+    "pointIndex": 14138,
+    "instructionType": "TURN",
+    "roadNumbers": [
+      "E4",
+      "E12"
+    ],
+    "street": "Kolbäcksvägen",
+    "countryCode": "SWE",
+    "signpostText": "Haparanda",
+    "junctionType": "ROUNDABOUT",
+    "turnAngleInDecimalDegrees": -90,
+    "roundaboutExitNumber": 3,
+    "possibleCombineWithNext": false,
+    "drivingSide": "RIGHT",
+    "maneuver": "ROUNDABOUT_LEFT"
+  },
+  {
+    "routeOffsetInMeters": 1030501,
+    "travelTimeInSeconds": 39860,
+    "point": {
+      "latitude": 63.79881,
+      "longitude": 20.28456
+    },
+    "pointIndex": 14158,
+    "instructionType": "TURN",
+    "roadNumbers": [
+      "E4",
+      "E12"
+    ],
+    "street": "Kolbäcksvägen",
+    "countryCode": "SWE",
+    "junctionType": "ROUNDABOUT",
+    "turnAngleInDecimalDegrees": 45,
+    "roundaboutExitNumber": 0,
+    "possibleCombineWithNext": false,
+    "drivingSide": "RIGHT",
+    "maneuver": "TAKE_EXIT"
+  },
+  {
+    "routeOffsetInMeters": 1031913,
+    "travelTimeInSeconds": 39941,
+    "point": {
+      "latitude": 63.80249,
+      "longitude": 20.31079
+    },
+    "pointIndex": 14210,
+    "instructionType": "TURN",
+    "roadNumbers": [
+      "E4",
+      "E12"
+    ],
+    "street": "Kolbäcksvägen",
+    "countryCode": "SWE",
+    "signpostText": "Haparanda",
+    "junctionType": "ROUNDABOUT",
+    "turnAngleInDecimalDegrees": 0,
+    "roundaboutExitNumber": 2,
+    "possibleCombineWithNext": false,
+    "drivingSide": "RIGHT",
+    "maneuver": "ROUNDABOUT_CROSS"
+  },
+  {
+    "routeOffsetInMeters": 1032565,
+    "travelTimeInSeconds": 39982,
+    "point": {
+      "latitude": 63.80569,
+      "longitude": 20.32144
+    },
+    "pointIndex": 14231,
+    "instructionType": "TURN",
+    "roadNumbers": [
+      "E4",
+      "E12"
+    ],
+    "street": "Kolbäcksvägen",
+    "countryCode": "SWE",
+    "signpostText": "Haparanda",
+    "junctionType": "ROUNDABOUT",
+    "turnAngleInDecimalDegrees": 0,
+    "roundaboutExitNumber": 2,
+    "possibleCombineWithNext": false,
+    "drivingSide": "RIGHT",
+    "maneuver": "ROUNDABOUT_CROSS"
+  },
+  {
+    "routeOffsetInMeters": 1033176,
+    "travelTimeInSeconds": 40022,
+    "point": {
+      "latitude": 63.81054,
+      "longitude": 20.32579
+    },
+    "pointIndex": 14262,
+    "instructionType": "TURN",
+    "roadNumbers": [
+      "E4",
+      "E12"
+    ],
+    "street": "Kolbäcksvägen",
+    "countryCode": "SWE",
+    "signpostText": "Haparanda",
+    "junctionType": "ROUNDABOUT",
+    "turnAngleInDecimalDegrees": 0,
+    "roundaboutExitNumber": 2,
+    "possibleCombineWithNext": false,
+    "drivingSide": "RIGHT",
+    "maneuver": "ROUNDABOUT_CROSS"
+  },
+  {
+    "routeOffsetInMeters": 1033492,
+    "travelTimeInSeconds": 40047,
+    "point": {
+      "latitude": 63.81325,
+      "longitude": 20.32649
+    },
+    "pointIndex": 14282,
+    "instructionType": "TURN",
+    "roadNumbers": [
+      "E4",
+      "E12"
+    ],
+    "street": "Kolbäcksvägen",
+    "countryCode": "SWE",
+    "signpostText": "Haparanda",
+    "junctionType": "ROUNDABOUT",
+    "turnAngleInDecimalDegrees": 0,
+    "roundaboutExitNumber": 2,
+    "possibleCombineWithNext": false,
+    "drivingSide": "RIGHT",
+    "maneuver": "ROUNDABOUT_CROSS"
+  },
+  {
+    "routeOffsetInMeters": 1034066,
+    "travelTimeInSeconds": 40084,
+    "point": {
+      "latitude": 63.81823,
+      "longitude": 20.32783
+    },
+    "pointIndex": 14305,
+    "instructionType": "TURN",
+    "roadNumbers": [
+      "E4",
+      "E12"
+    ],
+    "street": "Kolbäcksvägen",
+    "countryCode": "SWE",
+    "signpostText": "Haparanda",
+    "junctionType": "ROUNDABOUT",
+    "turnAngleInDecimalDegrees": 0,
+    "roundaboutExitNumber": 1,
+    "possibleCombineWithNext": false,
+    "drivingSide": "RIGHT",
+    "maneuver": "ROUNDABOUT_CROSS"
+  },
+  {
+    "routeOffsetInMeters": 1037359,
+    "travelTimeInSeconds": 40229,
+    "point": {
+      "latitude": 63.84677,
+      "longitude": 20.34168
+    },
+    "pointIndex": 14365,
+    "instructionType": "TURN",
+    "roadNumbers": [
+      "E4"
+    ],
+    "countryCode": "SWE",
+    "signpostText": "Haparanda",
+    "junctionType": "ROUNDABOUT",
+    "turnAngleInDecimalDegrees": 45,
+    "roundaboutExitNumber": 2,
+    "possibleCombineWithNext": false,
+    "drivingSide": "RIGHT",
+    "maneuver": "ROUNDABOUT_CROSS"
+  },
+  {
+    "routeOffsetInMeters": 1037715,
+    "travelTimeInSeconds": 40248,
+    "point": {
+      "latitude": 63.84776,
+      "longitude": 20.34842
+    },
+    "pointIndex": 14379,
+    "instructionType": "DIRECTION_INFO",
+    "roadNumbers": [
+      "E4"
+    ],
+    "countryCode": "SWE",
+    "possibleCombineWithNext": false,
+    "drivingSide": "RIGHT",
+    "maneuver": "FOLLOW"
+  },
+  {
+    "routeOffsetInMeters": 1164315,
+    "travelTimeInSeconds": 45367,
+    "point": {
+      "latitude": 64.73032,
+      "longitude": 20.97626
+    },
+    "pointIndex": 15629,
+    "instructionType": "TURN",
+    "roadNumbers": [
+      "E4"
+    ],
+    "countryCode": "SWE",
+    "signpostText": "Haparanda",
+    "junctionType": "ROUNDABOUT",
+    "turnAngleInDecimalDegrees": 0,
+    "roundaboutExitNumber": 2,
+    "possibleCombineWithNext": false,
+    "drivingSide": "RIGHT",
+    "maneuver": "ROUNDABOUT_CROSS"
+  },
+  {
+    "routeOffsetInMeters": 1165936,
+    "travelTimeInSeconds": 45480,
+    "point": {
+      "latitude": 64.74299,
+      "longitude": 20.96129
+    },
+    "pointIndex": 15679,
+    "instructionType": "TURN",
+    "roadNumbers": [
+      "E4"
+    ],
+    "street": "Centrumleden",
+    "countryCode": "SWE",
+    "signpostText": "Haparanda",
+    "junctionType": "ROUNDABOUT",
+    "turnAngleInDecimalDegrees": 0,
+    "roundaboutExitNumber": 2,
+    "possibleCombineWithNext": false,
+    "drivingSide": "RIGHT",
+    "maneuver": "ROUNDABOUT_CROSS"
+  },
+  {
+    "routeOffsetInMeters": 1167643,
+    "travelTimeInSeconds": 45605,
+    "point": {
+      "latitude": 64.75770,
+      "longitude": 20.96477
+    },
+    "pointIndex": 15745,
+    "instructionType": "TURN",
+    "roadNumbers": [
+      "E4"
+    ],
+    "countryCode": "SWE",
+    "signpostText": "Haparanda",
+    "junctionType": "ROUNDABOUT",
+    "turnAngleInDecimalDegrees": 0,
+    "roundaboutExitNumber": 2,
+    "possibleCombineWithNext": false,
+    "drivingSide": "RIGHT",
+    "maneuver": "ROUNDABOUT_CROSS"
+  },
+  {
+    "routeOffsetInMeters": 1170334,
+    "travelTimeInSeconds": 45743,
+    "point": {
+      "latitude": 64.76598,
+      "longitude": 21.01513
+    },
+    "pointIndex": 15808,
+    "instructionType": "TURN",
+    "roadNumbers": [
+      "E4"
+    ],
+    "countryCode": "SWE",
+    "junctionType": "REGULAR",
+    "turnAngleInDecimalDegrees": 0,
+    "possibleCombineWithNext": false,
+    "drivingSide": "RIGHT",
+    "maneuver": "STRAIGHT"
+  },
+  {
+    "routeOffsetInMeters": 1170824,
+    "travelTimeInSeconds": 45761,
+    "point": {
+      "latitude": 64.77004,
+      "longitude": 21.01909
+    },
+    "pointIndex": 15816,
+    "instructionType": "DIRECTION_INFO",
+    "roadNumbers": [
+      "E4"
+    ],
+    "countryCode": "SWE",
+    "possibleCombineWithNext": false,
+    "drivingSide": "RIGHT",
+    "maneuver": "FOLLOW"
+  },
+  {
+    "routeOffsetInMeters": 1195498,
+    "travelTimeInSeconds": 46561,
+    "point": {
+      "latitude": 64.95128,
+      "longitude": 21.19046
+    },
+    "pointIndex": 16076,
+    "instructionType": "TURN",
+    "roadNumbers": [
+      "E4"
+    ],
+    "countryCode": "SWE",
+    "signpostText": "Haparanda",
+    "junctionType": "BIFURCATION",
+    "turnAngleInDecimalDegrees": -45,
+    "possibleCombineWithNext": false,
+    "drivingSide": "RIGHT",
+    "maneuver": "KEEP_LEFT"
+  },
+  {
+    "routeOffsetInMeters": 1196033,
+    "travelTimeInSeconds": 46579,
+    "point": {
+      "latitude": 64.95397,
+      "longitude": 21.19981
+    },
+    "pointIndex": 16089,
+    "instructionType": "DIRECTION_INFO",
+    "roadNumbers": [
+      "E4"
+    ],
+    "countryCode": "SWE",
+    "signpostText": "Haparanda",
+    "possibleCombineWithNext": false,
+    "drivingSide": "RIGHT",
+    "maneuver": "FOLLOW"
+  },
+  {
+    "routeOffsetInMeters": 1243897,
+    "travelTimeInSeconds": 48205,
+    "point": {
+      "latitude": 65.30914,
+      "longitude": 21.40782
+    },
+    "pointIndex": 16548,
+    "instructionType": "TURN",
+    "roadNumbers": [
+      "E4"
+    ],
+    "countryCode": "SWE",
+    "junctionType": "BIFURCATION",
+    "turnAngleInDecimalDegrees": -45,
+    "possibleCombineWithNext": false,
+    "drivingSide": "RIGHT",
+    "maneuver": "KEEP_LEFT"
+  },
+  {
+    "routeOffsetInMeters": 1245218,
+    "travelTimeInSeconds": 48262,
+    "point": {
+      "latitude": 65.31921,
+      "longitude": 21.42050
+    },
+    "pointIndex": 16580,
+    "instructionType": "TURN",
+    "roadNumbers": [
+      "E4"
+    ],
+    "countryCode": "SWE",
+    "junctionType": "BIFURCATION",
+    "turnAngleInDecimalDegrees": -45,
+    "possibleCombineWithNext": false,
+    "drivingSide": "RIGHT",
+    "maneuver": "KEEP_LEFT"
+  },
+  {
+    "routeOffsetInMeters": 1245708,
+    "travelTimeInSeconds": 48282,
+    "point": {
+      "latitude": 65.32200,
+      "longitude": 21.42859
+    },
+    "pointIndex": 16590,
+    "instructionType": "DIRECTION_INFO",
+    "roadNumbers": [
+      "E4"
+    ],
+    "countryCode": "SWE",
+    "possibleCombineWithNext": false,
+    "drivingSide": "RIGHT",
+    "maneuver": "FOLLOW"
+  },
+  {
+    "routeOffsetInMeters": 1341646,
+    "travelTimeInSeconds": 51524,
+    "point": {
+      "latitude": 65.90898,
+      "longitude": 22.64553
+    },
+    "pointIndex": 17658,
+    "instructionType": "TURN",
+    "roadNumbers": [
+      "E4"
+    ],
+    "countryCode": "SWE",
+    "junctionType": "REGULAR",
+    "turnAngleInDecimalDegrees": 0,
+    "possibleCombineWithNext": false,
+    "drivingSide": "RIGHT",
+    "maneuver": "STRAIGHT"
+  },
+  {
+    "routeOffsetInMeters": 1342211,
+    "travelTimeInSeconds": 51544,
+    "point": {
+      "latitude": 65.90946,
+      "longitude": 22.65783
+    },
+    "pointIndex": 17666,
+    "instructionType": "DIRECTION_INFO",
+    "roadNumbers": [
+      "E4"
+    ],
+    "street": "Luleåvägen",
+    "countryCode": "SWE",
+    "possibleCombineWithNext": false,
+    "drivingSide": "RIGHT",
+    "maneuver": "FOLLOW"
+  },
+  {
+    "routeOffsetInMeters": 1365938,
+    "travelTimeInSeconds": 52397,
+    "point": {
+      "latitude": 65.85092,
+      "longitude": 23.12284
+    },
+    "pointIndex": 17985,
+    "instructionType": "TURN",
+    "roadNumbers": [
+      "E4"
+    ],
+    "countryCode": "SWE",
+    "junctionType": "ROUNDABOUT",
+    "turnAngleInDecimalDegrees": 0,
+    "roundaboutExitNumber": 3,
+    "possibleCombineWithNext": false,
+    "drivingSide": "RIGHT",
+    "maneuver": "ROUNDABOUT_CROSS"
+  },
+  {
+    "routeOffsetInMeters": 1366576,
+    "travelTimeInSeconds": 52431,
+    "point": {
+      "latitude": 65.85371,
+      "longitude": 23.13439
+    },
+    "pointIndex": 18015,
+    "instructionType": "TURN",
+    "roadNumbers": [
+      "E4"
+    ],
+    "countryCode": "SWE",
+    "signpostText": "Haparanda",
+    "junctionType": "ROUNDABOUT",
+    "turnAngleInDecimalDegrees": 0,
+    "roundaboutExitNumber": 2,
+    "possibleCombineWithNext": false,
+    "drivingSide": "RIGHT",
+    "maneuver": "ROUNDABOUT_CROSS"
+  },
+  {
+    "routeOffsetInMeters": 1366971,
+    "travelTimeInSeconds": 52475,
+    "point": {
+      "latitude": 65.85401,
+      "longitude": 23.14264
+    },
+    "pointIndex": 18036,
+    "instructionType": "TURN",
+    "roadNumbers": [
+      "E4"
+    ],
+    "countryCode": "SWE",
+    "signpostText": "Haparanda",
+    "junctionType": "ROUNDABOUT",
+    "turnAngleInDecimalDegrees": 0,
+    "roundaboutExitNumber": 2,
+    "possibleCombineWithNext": false,
+    "drivingSide": "RIGHT",
+    "maneuver": "ROUNDABOUT_CROSS"
+  },
+  {
+    "routeOffsetInMeters": 1367242,
+    "travelTimeInSeconds": 52493,
+    "point": {
+      "latitude": 65.85302,
+      "longitude": 23.14784
+    },
+    "pointIndex": 18059,
+    "instructionType": "DIRECTION_INFO",
+    "roadNumbers": [
+      "E4"
+    ],
+    "countryCode": "SWE",
+    "possibleCombineWithNext": false,
+    "drivingSide": "RIGHT",
+    "maneuver": "FOLLOW"
+  },
+  {
+    "routeOffsetInMeters": 1416278,
+    "travelTimeInSeconds": 54439,
+    "point": {
+      "latitude": 65.84010,
+      "longitude": 24.11447
+    },
+    "pointIndex": 18615,
+    "instructionType": "TURN",
+    "roadNumbers": [
+      "E4"
+    ],
+    "countryCode": "SWE",
+    "signpostText": "Finland",
+    "junctionType": "ROUNDABOUT",
+    "turnAngleInDecimalDegrees": 0,
+    "roundaboutExitNumber": 2,
+    "possibleCombineWithNext": false,
+    "drivingSide": "RIGHT",
+    "maneuver": "ROUNDABOUT_CROSS"
+  },
+  {
+    "routeOffsetInMeters": 1416900,
+    "travelTimeInSeconds": 54498,
+    "point": {
+      "latitude": 65.84161,
+      "longitude": 24.12678
+    },
+    "pointIndex": 18651,
+    "instructionType": "TURN",
+    "roadNumbers": [
+      "E4"
+    ],
+    "countryCode": "SWE",
+    "signpostText": "Finland",
+    "junctionType": "ROUNDABOUT",
+    "turnAngleInDecimalDegrees": 0,
+    "roundaboutExitNumber": 2,
+    "possibleCombineWithNext": false,
+    "drivingSide": "RIGHT",
+    "maneuver": "ROUNDABOUT_CROSS"
+  },
+  {
+    "routeOffsetInMeters": 1417274,
+    "travelTimeInSeconds": 54531,
+    "point": {
+      "latitude": 65.84167,
+      "longitude": 24.13454
+    },
+    "pointIndex": 18674,
+    "instructionType": "TURN",
+    "roadNumbers": [
+      "E4"
+    ],
+    "countryCode": "SWE",
+    "signpostText": "Finland",
+    "junctionType": "ROUNDABOUT",
+    "turnAngleInDecimalDegrees": 0,
+    "roundaboutExitNumber": 2,
+    "possibleCombineWithNext": true,
+    "drivingSide": "RIGHT",
+    "maneuver": "ROUNDABOUT_CROSS"
+  },
+  {
+    "routeOffsetInMeters": 1417422,
+    "travelTimeInSeconds": 54548,
+    "point": {
+      "latitude": 65.84146,
+      "longitude": 24.13750
+    },
+    "pointIndex": 18692,
+    "instructionType": "TURN",
+    "roadNumbers": [
+      "E4"
+    ],
+    "countryCode": "SWE",
+    "signpostText": "TorneÅ",
+    "junctionType": "ROUNDABOUT",
+    "turnAngleInDecimalDegrees": 0,
+    "roundaboutExitNumber": 2,
+    "possibleCombineWithNext": false,
+    "drivingSide": "RIGHT",
+    "maneuver": "ROUNDABOUT_CROSS"
+  },
+  {
+    "routeOffsetInMeters": 1417989,
+    "travelTimeInSeconds": 54630,
+    "point": {
+      "latitude": 65.84213,
+      "longitude": 24.14864
+    },
+    "pointIndex": 18736,
+    "instructionType": "TURN",
+    "roadNumbers": [
+      "E4",
+      "29"
+    ],
+    "street": "Valtatie",
+    "countryCode": "FIN",
+    "signpostText": "Kemi",
+    "junctionType": "ROUNDABOUT",
+    "turnAngleInDecimalDegrees": 0,
+    "roundaboutExitNumber": 2,
+    "possibleCombineWithNext": false,
+    "drivingSide": "RIGHT",
+    "maneuver": "ROUNDABOUT_CROSS"
+  },
+  {
+    "routeOffsetInMeters": 1420420,
+    "travelTimeInSeconds": 54807,
+    "point": {
+      "latitude": 65.84126,
+      "longitude": 24.19765
+    },
+    "pointIndex": 18806,
+    "instructionType": "TURN",
+    "roadNumbers": [
+      "E8",
+      "29"
+    ],
+    "countryCode": "FIN",
+    "junctionType": "ROUNDABOUT",
+    "turnAngleInDecimalDegrees": 0,
+    "roundaboutExitNumber": 2,
+    "possibleCombineWithNext": false,
+    "drivingSide": "RIGHT",
+    "maneuver": "ROUNDABOUT_CROSS"
+  },
+  {
+    "routeOffsetInMeters": 1420788,
+    "travelTimeInSeconds": 54829,
+    "point": {
+      "latitude": 65.84037,
+      "longitude": 24.20505
+    },
+    "pointIndex": 18821,
+    "instructionType": "DIRECTION_INFO",
+    "roadNumbers": [
+      "E8",
+      "29"
+    ],
+    "countryCode": "FIN",
+    "possibleCombineWithNext": false,
+    "drivingSide": "RIGHT",
+    "maneuver": "FOLLOW"
+  },
+  {
+    "routeOffsetInMeters": 1433993,
+    "travelTimeInSeconds": 55244,
+    "point": {
+      "latitude": 65.82043,
+      "longitude": 24.48291
+    },
+    "pointIndex": 18974,
+    "instructionType": "TURN",
+    "roadNumbers": [
+      "E75",
+      "4"
+    ],
+    "street": "Jäämerentie",
+    "countryCode": "FIN",
+    "signpostText": "ROVANIEMI",
+    "junctionType": "REGULAR",
+    "turnAngleInDecimalDegrees": 45,
+    "possibleCombineWithNext": true,
+    "drivingSide": "RIGHT",
+    "maneuver": "TAKE_EXIT"
+  },
+  {
+    "routeOffsetInMeters": 1434614,
+    "travelTimeInSeconds": 55279,
+    "point": {
+      "latitude": 65.81620,
+      "longitude": 24.49065
+    },
+    "pointIndex": 18992,
+    "instructionType": "TURN",
+    "roadNumbers": [
+      "E75",
+      "4"
+    ],
+    "street": "Jäämerentie",
+    "countryCode": "FIN",
+    "signpostText": "Rovaniemi",
+    "junctionType": "REGULAR",
+    "turnAngleInDecimalDegrees": -90,
+    "possibleCombineWithNext": false,
+    "drivingSide": "RIGHT",
+    "maneuver": "TURN_LEFT"
+  },
+  {
+    "routeOffsetInMeters": 1434942,
+    "travelTimeInSeconds": 55310,
+    "point": {
+      "latitude": 65.81897,
+      "longitude": 24.49283
+    },
+    "pointIndex": 19004,
+    "instructionType": "DIRECTION_INFO",
+    "roadNumbers": [
+      "E75",
+      "4"
+    ],
+    "street": "Jäämerentie",
+    "countryCode": "FIN",
+    "possibleCombineWithNext": false,
+    "drivingSide": "RIGHT",
+    "maneuver": "FOLLOW"
+  },
+  {
+    "routeOffsetInMeters": 1669193,
+    "travelTimeInSeconds": 64764,
+    "point": {
+      "latitude": 67.41323,
+      "longitude": 26.58899
+    },
+    "pointIndex": 21856,
+    "instructionType": "TURN",
+    "roadNumbers": [
+      "E75",
+      "4"
+    ],
+    "street": "Sodankyläntie",
+    "countryCode": "FIN",
+    "junctionType": "ROUNDABOUT",
+    "turnAngleInDecimalDegrees": 0,
+    "roundaboutExitNumber": 2,
+    "possibleCombineWithNext": false,
+    "drivingSide": "RIGHT",
+    "maneuver": "ROUNDABOUT_CROSS"
+  },
+  {
+    "routeOffsetInMeters": 1670107,
+    "travelTimeInSeconds": 64858,
+    "point": {
+      "latitude": 67.42117,
+      "longitude": 26.58802
+    },
+    "pointIndex": 21902,
+    "instructionType": "TURN",
+    "roadNumbers": [
+      "E75",
+      "4"
+    ],
+    "street": "Ivalontie",
+    "countryCode": "FIN",
+    "junctionType": "ROUNDABOUT",
+    "turnAngleInDecimalDegrees": 0,
+    "roundaboutExitNumber": 2,
+    "possibleCombineWithNext": false,
+    "drivingSide": "RIGHT",
+    "maneuver": "ROUNDABOUT_CROSS"
+  },
+  {
+    "routeOffsetInMeters": 1670383,
+    "travelTimeInSeconds": 64896,
+    "point": {
+      "latitude": 67.42337,
+      "longitude": 26.58665
+    },
+    "pointIndex": 21927,
+    "instructionType": "DIRECTION_INFO",
+    "roadNumbers": [
+      "E75",
+      "4"
+    ],
+    "street": "Ivalontie",
+    "countryCode": "FIN",
+    "possibleCombineWithNext": false,
+    "drivingSide": "RIGHT",
+    "maneuver": "FOLLOW"
+  },
+  {
+    "routeOffsetInMeters": 1828670,
+    "travelTimeInSeconds": 71112,
+    "point": {
+      "latitude": 68.65495,
+      "longitude": 27.54146
+    },
+    "pointIndex": 23693,
+    "instructionType": "TURN",
+    "roadNumbers": [
+      "E75",
+      "4"
+    ],
+    "street": "Ivalontie",
+    "countryCode": "FIN",
+    "junctionType": "ROUNDABOUT",
+    "turnAngleInDecimalDegrees": 0,
+    "roundaboutExitNumber": 2,
+    "possibleCombineWithNext": false,
+    "drivingSide": "RIGHT",
+    "maneuver": "ROUNDABOUT_CROSS"
+  },
+  {
+    "routeOffsetInMeters": 1828966,
+    "travelTimeInSeconds": 71149,
+    "point": {
+      "latitude": 68.65749,
+      "longitude": 27.53999
+    },
+    "pointIndex": 23712,
+    "instructionType": "TURN",
+    "roadNumbers": [
+      "E75",
+      "4"
+    ],
+    "street": "Ivalontie",
+    "countryCode": "FIN",
+    "junctionType": "ROUNDABOUT",
+    "turnAngleInDecimalDegrees": 0,
+    "roundaboutExitNumber": 2,
+    "possibleCombineWithNext": true,
+    "drivingSide": "RIGHT",
+    "maneuver": "ROUNDABOUT_CROSS"
+  },
+  {
+    "routeOffsetInMeters": 1829226,
+    "travelTimeInSeconds": 71179,
+    "point": {
+      "latitude": 68.65973,
+      "longitude": 27.53908
+    },
+    "pointIndex": 23731,
+    "instructionType": "TURN",
+    "roadNumbers": [
+      "E75",
+      "4"
+    ],
+    "street": "Ivalontie",
+    "countryCode": "FIN",
+    "junctionType": "ROUNDABOUT",
+    "turnAngleInDecimalDegrees": 0,
+    "roundaboutExitNumber": 2,
+    "possibleCombineWithNext": false,
+    "drivingSide": "RIGHT",
+    "maneuver": "ROUNDABOUT_CROSS"
+  },
+  {
+    "routeOffsetInMeters": 1829477,
+    "travelTimeInSeconds": 71203,
+    "point": {
+      "latitude": 68.66190,
+      "longitude": 27.53823
+    },
+    "pointIndex": 23746,
+    "instructionType": "DIRECTION_INFO",
+    "roadNumbers": [
+      "E75",
+      "4"
+    ],
+    "street": "Ivalontie",
+    "countryCode": "FIN",
+    "possibleCombineWithNext": false,
+    "drivingSide": "RIGHT",
+    "maneuver": "FOLLOW"
+  },
+  {
+    "routeOffsetInMeters": 1892855,
+    "travelTimeInSeconds": 73987,
+    "point": {
+      "latitude": 69.07430,
+      "longitude": 27.17497
+    },
+    "pointIndex": 24711,
+    "instructionType": "TURN",
+    "roadNumbers": [
+      "971"
+    ],
+    "street": "Sevettijärventie",
+    "countryCode": "FIN",
+    "junctionType": "REGULAR",
+    "turnAngleInDecimalDegrees": 90,
+    "possibleCombineWithNext": false,
+    "drivingSide": "RIGHT",
+    "maneuver": "TURN_RIGHT"
+  },
+  {
+    "routeOffsetInMeters": 1893120,
+    "travelTimeInSeconds": 74013,
+    "point": {
+      "latitude": 69.07444,
+      "longitude": 27.18146
+    },
+    "pointIndex": 24716,
+    "instructionType": "DIRECTION_INFO",
+    "roadNumbers": [
+      "971"
+    ],
+    "street": "Sevettijärventie",
+    "countryCode": "FIN",
+    "possibleCombineWithNext": false,
+    "drivingSide": "RIGHT",
+    "maneuver": "FOLLOW"
+  },
+  {
+    "routeOffsetInMeters": 2024103,
+    "travelTimeInSeconds": 79943,
+    "point": {
+      "latitude": 69.69235,
+      "longitude": 29.37113
+    },
+    "pointIndex": 26885,
+    "instructionType": "TURN",
+    "roadNumbers": [
+      "E6"
+    ],
+    "street": "Neidenveien",
+    "countryCode": "NOR",
+    "junctionType": "REGULAR",
+    "turnAngleInDecimalDegrees": 90,
+    "possibleCombineWithNext": false,
+    "drivingSide": "RIGHT",
+    "maneuver": "TURN_RIGHT"
+  },
+  {
+    "routeOffsetInMeters": 2024443,
+    "travelTimeInSeconds": 79973,
+    "point": {
+      "latitude": 69.68966,
+      "longitude": 29.37358
+    },
+    "pointIndex": 26902,
+    "instructionType": "DIRECTION_INFO",
+    "roadNumbers": [
+      "E6"
+    ],
+    "street": "Neidenveien",
+    "countryCode": "NOR",
+    "possibleCombineWithNext": false,
+    "drivingSide": "RIGHT",
+    "maneuver": "FOLLOW"
+  },
+  {
+    "routeOffsetInMeters": 2053216,
+    "travelTimeInSeconds": 81228,
+    "point": {
+      "latitude": 69.72030,
+      "longitude": 29.83730
+    },
+    "pointIndex": 27431,
+    "instructionType": "TURN",
+    "countryCode": "NOR",
+    "junctionType": "REGULAR",
+    "turnAngleInDecimalDegrees": -90,
+    "possibleCombineWithNext": false,
+    "drivingSide": "RIGHT",
+    "maneuver": "TURN_LEFT"
+  },
+  {
+    "routeOffsetInMeters": 2054203,
+    "travelTimeInSeconds": 81361,
+    "point": {
+      "latitude": 69.72139,
+      "longitude": 29.85957
+    },
+    "pointIndex": 27482,
+    "instructionType": "TURN",
+    "countryCode": "NOR",
+    "junctionType": "REGULAR",
+    "turnAngleInDecimalDegrees": -90,
+    "possibleCombineWithNext": false,
+    "drivingSide": "RIGHT",
+    "maneuver": "TURN_LEFT"
+  },
+  {
+    "routeOffsetInMeters": 2055382,
+    "travelTimeInSeconds": 81512,
+    "point": {
+      "latitude": 69.72935,
+      "longitude": 29.87428
+    },
+    "pointIndex": 27535,
+    "instructionType": "TURN",
+    "street": "Høybukta",
+    "countryCode": "NOR",
+    "junctionType": "REGULAR",
+    "turnAngleInDecimalDegrees": 45,
+    "possibleCombineWithNext": false,
+    "drivingSide": "RIGHT",
+    "maneuver": "BEAR_RIGHT"
+  },
+  {
+    "routeOffsetInMeters": 2057028,
+    "travelTimeInSeconds": 81830,
+    "point": {
+      "latitude": 69.73649,
+      "longitude": 29.90466
+    },
+    "pointIndex": 27640,
+    "instructionType": "TURN",
+    "countryCode": "NOR",
+    "junctionType": "REGULAR",
+    "turnAngleInDecimalDegrees": -90,
+    "possibleCombineWithNext": false,
+    "drivingSide": "RIGHT",
+    "maneuver": "TURN_LEFT"
+  },
+  {
+    "routeOffsetInMeters": 2057849,
+    "travelTimeInSeconds": 81997,
+    "point": {
+      "latitude": 69.74325,
+      "longitude": 29.90249
+    },
+    "pointIndex": 27688,
+    "instructionType": "LOCATION_ARRIVAL",
+    "countryCode": "NOR",
+    "possibleCombineWithNext": false,
+    "drivingSide": "RIGHT",
+    "maneuver": "ARRIVE_RIGHT"
+  }
+]
