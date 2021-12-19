@@ -43,17 +43,27 @@ def parse_route_instructions(instructions):
     """
     geo_points = []
 
-    distance_counter = 0
+    distance_threshold = 0
     for i, instruction in enumerate(instructions):
-        if i == 0 or instruction['routeOffsetInMeters'] >= distance_counter:
-            # Ensures we can lookup weather data at the
+        if i == 0 or instruction['routeOffsetInMeters'] >= distance_threshold:
+            # Ensures we can look up weather data at the
             # point in time when we reach this geo point
             hours_offset = math.floor(instruction['travelTimeInSeconds'] / 3600)
 
-            data = {"point": instruction['point'], "hours_offset": hours_offset}
+            # This enables us to apply weather delays
+            # across each 30 km interval, instead of
+            # across the whole route.
+            travel_time = instruction['travelTimeInSeconds'] - (
+                geo_points[-1]['travel_time'] if len(geo_points) > 0 else 0)
+
+            data = {
+                "point": instruction['point'],
+                "hours_offset": hours_offset,
+                "travel_time": travel_time
+            }
             geo_points.append(data)
 
-            # Re-fetch weather data after 30km
-            distance_counter += 30000
+            # Only re-fetch weather data after 30 km
+            distance_threshold += 30000
 
     return geo_points

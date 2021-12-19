@@ -3,12 +3,12 @@ import unittest
 from unittest.mock import patch
 
 from business_logic.route_planner import parse_route_instructions, calculate_route
-from business_logic.weather import get_current_weather
+from business_logic.weather import get_weather_report
 
 with open('mocks/calculate_route.json') as file:
     mock_route_data = json.load(file)
 
-with open('mocks/current_weather.json') as file:
+with open('mocks/current_weather_and_forecast.json') as file:
     mock_weather_data = json.load(file)
 
 
@@ -46,8 +46,12 @@ class ParseRouteInstructionsTestCase(unittest.TestCase):
 
         self.assertEqual(len(result), 1)
         self.assertEqual(
-            result[0],
-            {"point": {"latitude": 59.91912, "longitude": 10.73542}, "hours_offset": 0}
+            result[-1],
+            {
+                "point": {"latitude": 59.91912, "longitude": 10.73542},
+                "hours_offset": 0,
+                "travel_time": 0
+            }
         )
 
     # Total distance 188 km => 7 splits
@@ -55,6 +59,14 @@ class ParseRouteInstructionsTestCase(unittest.TestCase):
         result = parse_route_instructions(self.instructions[:25])
 
         self.assertEqual(len(result), 7)
+        self.assertEqual(
+            result[-1],
+            {
+                "point": {'latitude': 59.30051, 'longitude': 13.07207},
+                "hours_offset": 2,
+                "travel_time": 5245
+            }
+        )
 
     # Total distance 2057 km => 69 splits,
     # (some instructions have a distance greater than 30 km, which explains the fewer splits)
@@ -62,28 +74,37 @@ class ParseRouteInstructionsTestCase(unittest.TestCase):
         result = parse_route_instructions(self.instructions)
 
         self.assertEqual(len(result), 64)
+        self.assertEqual(
+            result[-1],
+            {
+                "point": {'latitude': 69.74325, 'longitude': 29.90249},
+                "hours_offset": 22,
+                "travel_time": 45303
+            }
+        )
 
 
-class GetCurrentWeatherTestCase(unittest.TestCase):
+class GetWeatherReportTestCase(unittest.TestCase):
     @patch('requests.get')
-    def test_get_current_weather_ok(self, mock):
+    def test_get_weather_report_ok(self, mock):
         mock.return_value.status_code = 200
         mock.return_value.json.return_value = mock_weather_data
 
         location = {"latitude": 69.78432418819496, "longitude": 29.947542386712723}
-        data = get_current_weather(location)
+        data = get_weather_report(location)
 
-        self.assertEqual(data[0]['main'], 'Clear')
+        self.assertEqual(data['current']['weather'][0]['main'], 'Clear')
+        self.assertEqual(data['hourly'][-1]['weather'][0]['main'], 'Clouds')
         mock.assert_called_once()
 
     @patch('requests.get')
-    def test_get_current_weather_failure(self, mock):
+    def test_get__weather_report_failure(self, mock):
         mock.return_value.status_code = 400
 
         destination = {"latitude": None, "longitude": None}
-        data = get_current_weather(destination)
+        data = get_weather_report(destination)
 
-        self.assertEqual(data, [])
+        self.assertEqual(data, {})
         mock.assert_called_once()
 
 
