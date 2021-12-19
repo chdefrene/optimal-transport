@@ -11,6 +11,7 @@ jobs:
   build-and-test:
     docker:
       - image: cimg/python:3.9
+    resource_class: small
     steps:
       - checkout
       - python/install-packages:
