@@ -18,7 +18,7 @@ def calculate_route(destination):
     to the provided destination.
     """
     ot_lat, ot_lng = OPTIMAL_TRANSPORT['latitude'], OPTIMAL_TRANSPORT['longitude']
-    locations = f"{ot_lat},{ot_lng}:{destination.latitude},{destination.longitude}"
+    locations = f"{ot_lat},{ot_lng}:{destination.get('latitude')},{destination.get('longitude')}"
 
     payload = {
         "key": os.environ.get('TOMTOM_API_KEY'),
