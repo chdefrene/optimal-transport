@@ -3,7 +3,7 @@ import unittest
 from unittest.mock import patch
 
 from business_logic.route_planner import parse_route_instructions, calculate_route
-from business_logic.weather import get_weather_report
+from business_logic.weather import get_weather_report, apply_weather_delay
 
 with open('mocks/calculate_route.json') as file:
     mock_route_data = json.load(file)
@@ -37,8 +37,7 @@ class CalculateRouteTestCase(unittest.TestCase):
 
 
 class ParseRouteInstructionsTestCase(unittest.TestCase):
-    def setUp(self):
-        self.instructions = mock_route_data['routes'][0]['guidance']['instructions']
+    instructions = mock_route_data['routes'][0]['guidance']['instructions']
 
     # Total distance 4.2 km => 1 split
     def test_parse_route_instructions_short(self):
@@ -106,6 +105,71 @@ class GetWeatherReportTestCase(unittest.TestCase):
 
         self.assertEqual(data, {})
         mock.assert_called_once()
+
+
+class ApplyWeatherDelayTestCase(unittest.TestCase):
+    geo_point = {
+        "point": {'latitude': 69.74325, 'longitude': 29.90249},
+        "hours_offset": 0,
+        "travel_time": 45303
+    }
+    weather_report = {
+        "current": {
+            "weather": [
+                {
+                    "id": 800,
+                    "main": "Clear",
+                    "description": "clear sky",
+                    "icon": "01n"
+                }
+            ]
+        },
+        "hourly": [
+            {
+                "weather": [
+                    {
+                        "id": 503,
+                        "main": "Rain",
+                        "description": "very heavy rain",
+                        "icon": "10d"
+                    }
+                ],
+            },
+            {
+                "weather": [
+                    {
+                        "id": 602,
+                        "main": "Snow",
+                        "description": "heavy snow",
+                        "icon": "13d"
+                    }
+                ],
+            },
+        ]
+    }
+
+    def test_apply_weather_delay_current(self):
+        result = apply_weather_delay(self.geo_point, self.weather_report)
+
+        self.assertEqual(result, 45303)
+
+    # Rain => 5% increase
+    def test_apply_weather_delay_forecast_1(self):
+        geo_point = self.geo_point
+        geo_point['hours_offset'] = 1
+
+        result = apply_weather_delay(geo_point, self.weather_report)
+
+        self.assertEqual(result, 47568.15)
+
+    # Snow => 10% increase
+    def test_apply_weather_delay_forecast_2(self):
+        geo_point = self.geo_point
+        geo_point['hours_offset'] = 2
+
+        result = apply_weather_delay(geo_point, self.weather_report)
+
+        self.assertEqual(result, 49833.3)
 
 
 if __name__ == '__main__':
