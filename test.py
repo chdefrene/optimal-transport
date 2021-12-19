@@ -3,9 +3,13 @@ import unittest
 from unittest.mock import patch
 
 from business_logic.route_planner import parse_route_instructions, calculate_route
+from business_logic.weather import get_current_weather
 
 with open('mocks/calculate_route.json') as file:
     mock_route_data = json.load(file)
+
+with open('mocks/current_weather.json') as file:
+    mock_weather_data = json.load(file)
 
 
 class CalculateRouteTestCase(unittest.TestCase):
@@ -58,6 +62,29 @@ class ParseRouteInstructionsTestCase(unittest.TestCase):
         result = parse_route_instructions(self.instructions)
 
         self.assertEqual(len(result), 64)
+
+
+class GetCurrentWeatherTestCase(unittest.TestCase):
+    @patch('requests.get')
+    def test_get_current_weather_ok(self, mock):
+        mock.return_value.status_code = 200
+        mock.return_value.json.return_value = mock_weather_data
+
+        location = {"latitude": 69.78432418819496, "longitude": 29.947542386712723}
+        data = get_current_weather(location)
+
+        self.assertEqual(data[0]['main'], 'Clear')
+        mock.assert_called_once()
+
+    @patch('requests.get')
+    def test_get_current_weather_failure(self, mock):
+        mock.return_value.status_code = 400
+
+        destination = {"latitude": None, "longitude": None}
+        data = get_current_weather(destination)
+
+        self.assertEqual(data, [])
+        mock.assert_called_once()
 
 
 if __name__ == '__main__':

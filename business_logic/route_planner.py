@@ -24,7 +24,7 @@ def calculate_route(destination):
         "key": os.environ.get('TOMTOM_API_KEY'),
         "instructionsType": "coded",
         "routeRepresentation": "summaryOnly",
-        "departAt": "2021-12-31T15:06:27+01:00",
+        # "departAt": "2021-12-31T15:06:27+01:00",
         "vehicleCommercial": True,
     }
 
