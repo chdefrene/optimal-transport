@@ -17,7 +17,8 @@ class CalculateRouteTestCase(unittest.TestCase):
         destination = {"latitude": 69.78432418819496, "longitude": 29.947542386712723}
         data = calculate_route(destination)
 
-        self.assertEqual(len(data), 131)
+        self.assertEqual(data['summary']['travelTimeInSeconds'], 81997)
+        self.assertEqual(len(data['guidance']['instructions']), 131)
         mock.assert_called_once()
 
     @patch('requests.get')
@@ -27,7 +28,7 @@ class CalculateRouteTestCase(unittest.TestCase):
         destination = {"latitude": None, "longitude": None}
         data = calculate_route(destination)
 
-        self.assertEqual(data, [])
+        self.assertEqual(data, {})
         mock.assert_called_once()
 
 
@@ -52,7 +53,7 @@ class ParseRouteInstructionsTestCase(unittest.TestCase):
         self.assertEqual(len(result), 7)
 
     # Total distance 2057 km => 69 splits,
-    # (some instructions have a distance greater than 30 km)
+    # (some instructions have a distance greater than 30 km, which explains the fewer splits)
     def test_parse_route_instructions_long(self):
         result = parse_route_instructions(self.instructions)
 

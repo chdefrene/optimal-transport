@@ -31,14 +31,14 @@ def calculate_route(destination):
     response = requests.get(f"https://api.tomtom.com/routing/1/calculateRoute/{locations}/json", params=payload)
 
     if response.status_code == 200:
-        return response.json()['routes'][0]['guidance']['instructions']
+        return response.json().get('routes', [{}])[0]
 
-    return []
+    return {}
 
 
 def parse_route_instructions(instructions):
     """
-    Traverse the route instructions, dividing it up into 30km intervals.
+    Traverse the route instructions, dividing it up into 30 km intervals.
     This will be used later on when fetching weather data.
     """
     geo_points = []
